@@ -28,3 +28,8 @@ Next, there is a second convolutional layer with 16 feature maps having size 5×
 
 The main reason is to break the symmetry in the network and keeps the number of connections within reasonable bounds. That’s why the number of training parameters in this layers are 1516 instead of 2400 and similarly, the number of connections are 151600 instead of 240000.
 
+![image](https://user-images.githubusercontent.com/62478699/88669798-a48c4b00-d0e4-11ea-85eb-4fe0e426bb0b.png)
+
+Fourth Layer:
+
+The fourth layer (S4) is again an average pooling layer with filter size 2×2 and a stride of 2. This layer is the same as the second layer (S2) except it has 16 feature maps so the output will be reduced to 5x5x16.
