@@ -18,3 +18,9 @@ Second Layer:
 
 Then the LeNet-5 applies average pooling layer or sub-sampling layer with a filter size 2×2 and a stride of two. The resulting image dimensions will be reduced to 14x14x6.
 
+![image](https://user-images.githubusercontent.com/62478699/88669212-e7015800-d0e3-11ea-9799-36fae2fe0e8d.png)
+
+Third Layer:
+
+Next, there is a second convolutional layer with 16 feature maps having size 5×5 and a stride of 1. In this layer, only 10 out of 16 feature maps are connected to 6 feature maps of the previous layer as shown below.
+
