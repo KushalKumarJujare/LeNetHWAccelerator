@@ -26,3 +26,5 @@ Next, there is a second convolutional layer with 16 feature maps having size 5×
 
 ![image](https://user-images.githubusercontent.com/62478699/88669630-6a22ae00-d0e4-11ea-83cb-c18a81f25edc.png)
 
+The main reason is to break the symmetry in the network and keeps the number of connections within reasonable bounds. That’s why the number of training parameters in this layers are 1516 instead of 2400 and similarly, the number of connections are 151600 instead of 240000.
+
