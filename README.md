@@ -46,3 +46,10 @@ Sixth Layer:
 
 The sixth layer is a fully connected layer (F6) with 84 units.
 
+![image](https://user-images.githubusercontent.com/62478699/88670325-36945380-d0e5-11ea-9b55-853e02a157b5.png)
+
+Output Layer:
+
+Finally, there is a fully connected softmax output layer ŷ with 10 possible values corresponding to the digits from 0 to 9.
+
+
