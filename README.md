@@ -40,3 +40,9 @@ Fifth Layer:
 
 The fifth layer (C5) is a fully connected convolutional layer with 120 feature maps each of size 1×1. Each of the 120 units in C5 is connected to all the 400 nodes (5x5x16) in the fourth layer S4.
 
+![image](https://user-images.githubusercontent.com/62478699/88670129-fd5be380-d0e4-11ea-892e-964b240e43db.png)
+
+Sixth Layer:
+
+The sixth layer is a fully connected layer (F6) with 84 units.
+
