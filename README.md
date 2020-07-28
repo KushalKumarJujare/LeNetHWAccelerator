@@ -12,3 +12,9 @@ First Layer:
 
 The input for LeNet-5 is a 32×32 grayscale image which passes through the first convolutional layer with 6 feature maps or filters having size 5×5 and a stride of one. The image dimensions changes from 32x32x1 to 28x28x6.
 
+![image](https://user-images.githubusercontent.com/62478699/88668917-86721b00-d0e3-11ea-93df-a43fdeaeb533.png)
+
+Second Layer:
+
+Then the LeNet-5 applies average pooling layer or sub-sampling layer with a filter size 2×2 and a stride of two. The resulting image dimensions will be reduced to 14x14x6.
+
