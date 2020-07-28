@@ -52,4 +52,6 @@ Output Layer:
 
 Finally, there is a fully connected softmax output layer ŷ with 10 possible values corresponding to the digits from 0 to 9.
 
+![image](https://user-images.githubusercontent.com/62478699/88670446-5deb2080-d0e5-11ea-8758-2b4e9b3dc4d7.png)
+
 
