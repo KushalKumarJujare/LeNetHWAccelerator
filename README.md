@@ -54,4 +54,5 @@ Finally, there is a fully connected softmax output layer ŷ with 10 possible val
 
 ![image](https://user-images.githubusercontent.com/62478699/88670446-5deb2080-d0e5-11ea-8758-2b4e9b3dc4d7.png)
 
+![image](https://user-images.githubusercontent.com/62478699/88670592-8b37ce80-d0e5-11ea-8d06-a11839653f08.png)
 
