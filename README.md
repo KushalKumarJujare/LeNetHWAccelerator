@@ -33,3 +33,10 @@ The main reason is to break the symmetry in the network and keeps the number of 
 Fourth Layer:
 
 The fourth layer (S4) is again an average pooling layer with filter size 2×2 and a stride of 2. This layer is the same as the second layer (S2) except it has 16 feature maps so the output will be reduced to 5x5x16.
+
+![image](https://user-images.githubusercontent.com/62478699/88669990-d7364380-d0e4-11ea-906f-35223df30971.png)
+
+Fifth Layer:
+
+The fifth layer (C5) is a fully connected convolutional layer with 120 feature maps each of size 1×1. Each of the 120 units in C5 is connected to all the 400 nodes (5x5x16) in the fourth layer S4.
+
