@@ -24,3 +24,5 @@ Third Layer:
 
 Next, there is a second convolutional layer with 16 feature maps having size 5×5 and a stride of 1. In this layer, only 10 out of 16 feature maps are connected to 6 feature maps of the previous layer as shown below.
 
+![image](https://user-images.githubusercontent.com/62478699/88669630-6a22ae00-d0e4-11ea-83cb-c18a81f25edc.png)
+
