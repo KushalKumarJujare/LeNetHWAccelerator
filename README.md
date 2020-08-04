@@ -24,12 +24,12 @@ This implementation will be parameterized to accommodate other DNN architectures
 -> Images need to be Gray-scaled (ie., only 1 colour channel).
 -> Real values of weights and Bias matrices should be converted to whole numbers (0,1,2, etc.,).
 -> Allowed parameterization : Size (l,b) of Image and Kernel matrices, Stride, Bit width of each pixel in Image and Kernal matrices. As of now, padding is kept to 0.
-    parameter IMAGE_PIXEL_WIDTH = 8,
-    parameter KERNEL_PIXEL_WIDTH = 5,
-    parameter WC1_IMAGE_WIDTH = 30,
-    parameter WC1_KERNEL = 3,
-    parameter WC1_STRIDE = 3,
-    parameter WC1_PADDING = 0
+   Eg: parameter IMAGE_PIXEL_WIDTH = 8,
+       parameter KERNEL_PIXEL_WIDTH = 5,
+       parameter WC1_IMAGE_WIDTH = 30,
+       parameter WC1_KERNEL = 3,
+       parameter WC1_STRIDE = 3,
+       parameter WC1_PADDING = 0
 
 # Introduction
 Yann LeCun, Leon Bottou, Yosuha Bengio and Patrick Haffner proposed a neural network architecture for handwritten and machine-printed character recognition in 1990’s which they called LeNet-5.
